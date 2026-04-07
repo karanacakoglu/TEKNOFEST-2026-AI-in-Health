@@ -52,11 +52,11 @@ The model consists of the following components:
 
 | Attribute | Details |
 |-----------|---------|
-| Data Source | [PLACEHOLDER: e.g., UCI, Kaggle, Hospital Records] |
-| Number of Samples | [PLACEHOLDER] |
-| Number of Features | [PLACEHOLDER] |
-| Target Variable | [PLACEHOLDER] |
-| Train / Test Split | [PLACEHOLDER, e.g., 80/20] |
+| Data Source | [ClinVAR, genomAD, dbNSFP] |
+| Number of Samples | [Raw : 1 billion, final dataset : 16357] |
+| Number of Features | [66 but we used 12 feature R] |
+| Target Variable | [Clinical Sig.] |
+| Train / Test Split | [80 train - 20 test] |
 
 ---
 
@@ -97,11 +97,11 @@ jupyter notebook teknofestArch_final.ipynb
 
 | Metric | Value |
 |--------|-------|
-| Accuracy | [PLACEHOLDER] |
-| F1-Score | [PLACEHOLDER] |
-| AUC-ROC | [PLACEHOLDER] |
-| Precision | [PLACEHOLDER] |
-| Recall | [PLACEHOLDER] |
+| Accuracy | [93] |
+| F1-Score | [96.121] |
+| AUC-ROC | [0.99] |
+| Precision | [] |
+| Recall | [maximum] |
 
 > [PLACEHOLDER: Add comparison baseline if available]
 
@@ -133,11 +133,10 @@ Using **SHAP (SHapley Additive exPlanations)**, the model's decision-making proc
 
 | Name | Role |
 |------|------|
-| Murat Karanacakoğlu | [PLACEHOLDER: Project Lead / ML Engineer] |
-| [PLACEHOLDER] | [PLACEHOLDER] |
+| Murat Karanacakoğlu | [PLACEHOLDER: Project Architecture Lead / ML-DL Engineer, Researcher] |
+| [Efe Karameşe] | [Dataset Lead, Data Science Expert] |
 
-**Advisor:** [PLACEHOLDER]
-**Institution:** [PLACEHOLDER: University / Organization]
+**Institution:** Ankara University - Computer Science - Faculty of Science
 
 ---
 
@@ -150,7 +149,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 - GitHub: [@karanacakoglu](https://github.com/karanacakoglu)
-- Email: [PLACEHOLDER]
+- Email: mkaranacak52@gmail.com
 
 ---
 
