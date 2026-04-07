@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview
 
-This project develops an AI system for ** "early detection of psychiatric disorders" ** using a **Mixture of Experts (MoE)** architecture.
+This project develops an AI system for **"early detection of psychiatric disorders"** using a **Mixture of Experts (MoE)** architecture.
 
 The model learns meaningful patterns from clinical data to perform **benign- patigenic**. A SHAP-based explainability module makes the predictions interpretable for clinicians.
 
@@ -136,12 +136,6 @@ Using **SHAP (SHapley Additive exPlanations)**, the model's decision-making proc
 | Efe Karameşe | [Dataset Lead, Data Science Expert] |
 
 **Institution:** Ankara University - Computer Science - Faculty of Science
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
