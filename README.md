@@ -7,15 +7,14 @@
 
 ## 📌 Project Overview
 
-This project develops an AI system for **[PLACEHOLDER: problem definition, e.g., "early detection of psychiatric disorders"]** using a **Mixture of Experts (MoE)** architecture.
+This project develops an AI system for ** "early detection of psychiatric disorders" ** using a **Mixture of Experts (MoE)** architecture.
 
-The model learns meaningful patterns from clinical data to perform **[PLACEHOLDER: prediction target, e.g., "symptom severity estimation / diagnostic classification"]**. A SHAP-based explainability module makes the predictions interpretable for clinicians.
+The model learns meaningful patterns from clinical data to perform **benign- patigenic**. A SHAP-based explainability module makes the predictions interpretable for clinicians.
 
 ---
 
 ## 🎯 Motivation
 
-- [PLACEHOLDER: Why is this problem important? How many people are affected?]
 - Limitations of current approaches and the opportunities AI offers in this domain
 - The societal impact of this solution within the TEKNOFEST framework
 
@@ -52,11 +51,11 @@ The model consists of the following components:
 
 | Attribute | Details |
 |-----------|---------|
-| Data Source | [ClinVAR, genomAD, dbNSFP] |
-| Number of Samples | [Raw : 1 billion, final dataset : 16357] |
-| Number of Features | [66 but we used 12 feature R] |
-| Target Variable | [Clinical Sig.] |
-| Train / Test Split | [80 train - 20 test] |
+| Data Source | ClinVAR, genomAD, dbNSFP |
+| Number of Samples | Raw : 1 billion, final dataset : 16357 |
+| Number of Features | 66 but we used 12 feature |
+| Target Variable | Clinical Sig. |
+| Train / Test Split | 80 train - 20 test % |
 
 ---
 
@@ -97,11 +96,11 @@ jupyter notebook teknofestArch_final.ipynb
 
 | Metric | Value |
 |--------|-------|
-| Accuracy | [93] |
-| F1-Score | [96.121] |
-| AUC-ROC | [0.99] |
-| Precision | [] |
-| Recall | [maximum] |
+| Accuracy | 93 % |
+| F1-Score | 96.121 % |
+| AUC-ROC | [0.99 % |
+| Precision |  |
+| Recall | maximum |
 
 > [PLACEHOLDER: Add comparison baseline if available]
 
@@ -134,7 +133,7 @@ Using **SHAP (SHapley Additive exPlanations)**, the model's decision-making proc
 | Name | Role |
 |------|------|
 | Murat Karanacakoğlu | [PLACEHOLDER: Project Architecture Lead / ML-DL Engineer, Researcher] |
-| [Efe Karameşe] | [Dataset Lead, Data Science Expert] |
+| Efe Karameşe | [Dataset Lead, Data Science Expert] |
 
 **Institution:** Ankara University - Computer Science - Faculty of Science
 
